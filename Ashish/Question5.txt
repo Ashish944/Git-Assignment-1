@@ -1,1 +1,7 @@
+The --force will directly merges/overwrtie all the contents of the local files onto to the remote file 
 
+The --force--with--lease will not overwrite all the contents of the remote file.
+
+
+scenario
+--force--with--lease option make sure that your work will not overwrite any others teammember code.

@@ -1,1 +1,22 @@
+Cherry pick in git means to choose a commit from one branch and apply it onto another branch.
+
+use case -
+while doing any project if you want to add some feature from another branch into your branch (eg css file or any file in branch 2 to 
+branch 1), you can add that particular file by refering to the  commit hash associated with it.
+
+Eg 
+branch
+Ashish_branch
+master
+
+Added day1.txt and day2.txt file in master node
+
+git checkout Ashish_branch
+
+git cherry-pick 2e73caed243dc9bd972939805903537c63a6f4e9
+[Ashish_branch 6df52a4] The two files day1.txt and day2.txt added
+ Date: Wed Aug 14 14:39:39 2019 +0530
+ 2 files changed, 5 insertions(+)
+ create mode 100644 day1.txt
+ create mode 100644 day2.txt
 
