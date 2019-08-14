@@ -4,3 +4,6 @@ first modification
 
 second modificaion
 
+staged changes
+
+new changes
