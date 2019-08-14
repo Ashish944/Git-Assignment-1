@@ -1,1 +1,5 @@
+git reset --soft (commit hash)
+	It will point to the given commit hash and all the previous commit will go to the staged area
 
+git reset --hard (commit hash)
+	It will point to the given commit hash and all the previous commit will be removed 
