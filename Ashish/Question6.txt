@@ -1,1 +1,1 @@
-git reset commit-hash or head
+git reset --soft commit-hash or head
