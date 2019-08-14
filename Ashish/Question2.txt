@@ -1,1 +1,13 @@
+ashish@Ashish:~/Git-Assignment-1/Ashish$ git remote add gitAssign1 https://github.com/Ashish944/Git-Assignment-1.git
+ashish@Ashish:~/Git-Assignment-1/Ashish$ git remote add MergingPR https://github.com/Ashish944/MergingPR.git
+ashish@Ashish:~/Git-Assignment-1/Ashish$ git remote -v
+MergingPR	https://github.com/Ashish944/MergingPR.git (fetch)
+MergingPR	https://github.com/Ashish944/MergingPR.git (push)
+gitAssign1	https://github.com/Ashish944/Git-Assignment-1.git (fetch)
+gitAssign1	https://github.com/Ashish944/Git-Assignment-1.git (push)
+origin	https://github.com/Ashish944/Git-Assignment-1.git (fetch)
+origin	https://github.com/Ashish944/Git-Assignment-1.git (push)
 
+
+
+Having multiple repositories makes it easy to give access to subsets of repositories on need to code basis and to organize the project.
