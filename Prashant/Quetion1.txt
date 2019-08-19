@@ -1,0 +1,11 @@
+Cherry-pick is "apply the changes introduced by some existing commit.” 
+
+use case =>
+1.    the ability to git cherry-pick a commit can be extremely helpful in fixing bugs and resolving problems in GitHub.
+2.  You can avoid unnecessary conflicts by using git cherry-pick instead of other options that as well apply changes from the given commits, such as git diff.
+3.  git cherry-pick is used to get the changes introduced to a sub-branch, without changing the branch.
+Steps to do =>
+
+git log
+git checkout new_branch
+git cherry-pick <hash of commit>
